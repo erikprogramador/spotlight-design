@@ -1,0 +1,22 @@
+{
+  "name": "spotlight-html-css",
+  "authors": [
+    "Erik Vanderlei Fernandes <erik.vanderlei.programador@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^4.0.0",
+    "font-awesome": "^4.5.0"
+  }
+}
