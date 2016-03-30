@@ -1,0 +1,49 @@
+$main: #EEEBFD
+$text: #0D0C11
+$placeholder: #9E93A1
+
+body
+    background:
+        image: url(../img/yosemite-bg.jpg)
+        size: cover
+        position: center
+        repeat: no-repeat
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-content: center
+    align-items: center
+
+.container
+    width: 50%
+    box-sizing: border-box
+    
+    .spotlight-input
+        box-shadow: 0 10px 30px rgba(0, 0, 0, .8)
+        box-sizing: border-box
+        background:
+            color: $main
+        width: 100%
+        padding: 10px 15px
+        border-radius: 5px
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        
+        i
+            color: $placeholder
+            font-size: 1.2rem
+            margin: 5px 10px 5px 0
+
+        input
+            font-size: 1.5rem
+            flex: 1
+            height: 30px
+            outline: none
+            border: none
+            background:
+                color: $main
+            color: $text
+
+            &::-webkit-input-placeholder
+                color: $placeholder
